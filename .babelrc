@@ -1,0 +1,14 @@
+{
+  "presets": [
+      [
+          "@babel/preset-env", {
+              "targets": {
+                  "browsers": ["> 1%", "last 2 versions"]
+              },
+              // 用来treeshaking，不要将es6模块转换为common.js
+              "modules": false,
+              "useBuiltIns": "usage"
+          }
+      ]
+  ],
+}
