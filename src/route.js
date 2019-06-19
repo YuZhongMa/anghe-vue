@@ -1,4 +1,15 @@
 import About from '@/components/about';
-export default [
-  { path: 'about', component: About }
+import Home from '@/components/home';
+export default [{
+    path: '/home',
+    component: Home
+  },
+  {
+    path: '/about',
+    component: About
+  },
+  {
+    path: '*',
+    redirect: '/home'
+  }
 ]
