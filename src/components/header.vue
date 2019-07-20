@@ -2,7 +2,7 @@
   <div class="common-header">
     <div class="header-left">
       <a class="title-text" href="#/home">
-        <span>昂和化肥</span>
+        <span>昂和水溶肥</span>
       </a>
     </div>
     <div class="header-right">

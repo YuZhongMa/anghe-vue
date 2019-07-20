@@ -1,8 +1,20 @@
 <template>
-  <div class="ah-carousel">
-    <el-carousel height="200px">
-      <el-carousel-item v-for="item in 3" :key="item">
-        <h3>{{ item }}</h3>
+  <div class="home-carousel">
+    <el-carousel type="card" height="400px">
+      <el-carousel-item>
+        <img src="../imgs/0.png" alt="">
+      </el-carousel-item>
+      <el-carousel-item>
+        <img src="../imgs/1.png" alt="">
+      </el-carousel-item>
+      <el-carousel-item>
+        <img src="../imgs/2.png" alt="">
+      </el-carousel-item>
+      <el-carousel-item>
+        <img src="../imgs/3.png" alt="">
+      </el-carousel-item>
+      <el-carousel-item>
+        <img src="../imgs/4.png" alt="">
       </el-carousel-item>
     </el-carousel>
   </div>
@@ -12,9 +24,12 @@ export default {};
 </script>
 <style lang="less" scoped>
 .el-carousel__item {
-  background: #409eff
+  img {
+    width: 100%;
+    height: 400px;
+  }
 }
-.ah-carousel {
+.home-carousel {
   margin-top: 20px;
 }
 </style>
