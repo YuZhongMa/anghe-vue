@@ -19,7 +19,7 @@
   "homepage": "https://github.com/YuZhongMa/anghe-vue#readme",
   "dependencies": {
     "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0-beta.3",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "jquery": "^3.3.1",
     "js-cookie": "^2.2.0",
     "qs": "^6.5.1",
