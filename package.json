@@ -60,7 +60,7 @@
     "lerna": "^3.5.0",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "md5": "^2.2.1",
     "mini-css-extract-plugin": "^0.7.0",
     "moment": "^2.24.0",
